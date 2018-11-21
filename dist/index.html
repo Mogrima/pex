@@ -3,6 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Pex</title>
+	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/style.css">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Merriweather:700" rel="stylesheet">
@@ -23,7 +24,7 @@
 			</ul>
 			<form class="search" action="#" method="post">
 				<input class="search__field" type="search" name="search" placeholder="Search Website">
-				<button class="search__button">search</button>
+				<button class="search__button"><span class="visually-hidden">search</span></button>
 			</form>
 		</nav>
 	</header>
@@ -53,7 +54,7 @@
 		<section class="offer">
 			<h2 class="offer__title">Wicked & whack, bang bang boo!</h2>
 			<p class="offer__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim </p>
-			<button class="button offer__button" type="submit">Get Started Today</button>
+			<button class="button button--light offer__button" type="submit">Get Started Today</button>
 		</section>
 		<section class="desc">
 			<h2 class="desc__title">A heading is what you need here</h2>
@@ -82,7 +83,7 @@
 			<h2 class="desc__title">A heading is what you need here</h2>
 			<p class="desc__text desc__text--main">Tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
 			<p class="desc__text">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-			<div class="desc__content">
+			<div class="desc__content desc__content--bright">
 				<img class="desc__img" src="" alt="">
 			</div>
 		</section>
@@ -90,7 +91,7 @@
 			<h2 class="visually-hidden">Our mail</h2>
 			<p class="mail__title">Get in touch</p>
 			<p class="mail__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-			<a href="mailto:help@yomuma.com">help@yomuma.com</a>
+			<a class="mail__link" href="mailto:help@yomuma.com">help@yomuma.com</a>
 		</section>
 	</main>
 	<footer class="page-footer">

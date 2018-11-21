@@ -1,3 +1,24 @@
+/* цвета фонов */
+/* Цвет текста */
+/* Параметры текста */
+/* кнопки */
+.button {
+  padding-left: 70px;
+  padding-right: 70px;
+  font-family: 'Merriweather', serif;
+  font-size: 18px;
+  line-height: 60px;
+  color: #ffffff;
+  background-color: #8824cd;
+  border: none;
+  border-radius: 30px;
+}
+.button--light {
+  padding-left: 105px;
+  padding-right: 105px;
+  background-color: #ffffff;
+  color: #d54c63;
+}
 .visually-hidden:not(:focus):not(active),
 input[type="checkbox"].visually-hidden,
 input[type="checkbox"].visually-hidden {
@@ -13,10 +34,170 @@ input[type="checkbox"].visually-hidden {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-/* цвета фонов */
-/* Цвет текста */
-/* Параметры текста */
-/* кнопки */
+.page-header {
+  background-color: #3a545f;
+}
+.logo {
+  text-decoration: none;
+}
+.logo__text {
+  font-size: 12px;
+  font-style: italic;
+  color: #ffffff;
+}
+.site-list {
+  margin: 0;
+  padding: 0;
+  list-style: 0;
+}
+.site-list__link {
+  font-size: 13px;
+  line-height: 24px;
+  color: #ffffff;
+  text-decoration: none;
+}
+input[type="search"]::-webkit-input-placeholder {
+  font-size: 12px;
+  color: #626262;
+}
+input[type="search"]:-ms-input-placeholder {
+  font-size: 12px;
+  color: #626262;
+}
+input[type="search"]::-ms-input-placeholder {
+  font-size: 12px;
+  color: #626262;
+}
+input[type="search"]::placeholder {
+  font-size: 12px;
+  color: #626262;
+}
+.search__field {
+  padding: 14px 25px;
+  border: none;
+  border-radius: 25px;
+}
+.search__button {
+  background-color: transparent;
+  border: none;
+}
+.advantages {
+  font-size: 15px;
+  line-height: 26px;
+  color: #ffffff;
+  background-color: #2e3b4e;
+}
+.advantages__list {
+  margin: 0;
+  padding: 0;
+  list-style: 0;
+}
+.advantages__title {
+  text-transform: uppercase;
+}
+.advantages__text {
+  text-align: justify;
+}
+.offer {
+  color: #ffffff;
+  background-color: #e7526b;
+}
+.offer__title {
+  font-size: 35px;
+  line-height: 60px;
+  font-weight: 400;
+}
+.offer__text {
+  font-size: 15px;
+  line-height: 26px;
+}
+.desc {
+  color: #3a4d60;
+}
+.desc__title {
+  font-size: 15px;
+  line-height: 26px;
+  text-transform: uppercase;
+}
+.desc__text {
+  font-size: 15px;
+  line-height: 26px;
+}
+.desc__text--main {
+  font-size: 19px;
+  line-height: 31px;
+}
+.desc__content {
+  width: 630px;
+  height: 500px;
+  background-color: #ebebeb;
+}
+.desc__content--bright {
+  background-color: #614398;
+}
+.experience {
+  background-color: #404040;
+}
+.experience__title {
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 48px;
+  color: #ffffff;
+}
+.experience__text {
+  font-size: 20px;
+  line-height: 33px;
+  color: #a87bb7;
+}
+.experience__desc {
+  display: block;
+  font-size: 11px;
+  line-height: 16px;
+  color: #ffffff;
+}
+.portfolio {
+  color: #ffffff;
+  background-color: #232323;
+}
+.portfolio__button {
+  padding: 10px 30px;
+  font-size: 13px;
+  font-weight: 600;
+  color: #ffffff;
+  background-color: #232323;
+  border-radius: 30px;
+  border: 2px solid #ffffff;
+}
+.portfolio__title {
+  font-size: 40px;
+  line-height: 50px;
+}
+.portfolio__author-name {
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 40px;
+}
+.mail {
+  font-size: 15px;
+  line-height: 26px;
+  color: #ffffff;
+  background-color: #e7526b;
+}
+.mail__title {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.mail__link {
+  color: #ffffff;
+}
+.page-footer {
+  color: #ffffff;
+  background-color: #2e3b4e;
+}
+.page-footer__text {
+  font-size: 12px;
+  line-height: 36px;
+}
 body {
   font-family: 'Open Sans', sans-serif;
   /* font-family: 'Merriweather', serif; */
