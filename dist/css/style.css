@@ -93,9 +93,13 @@ input[type="search"]::placeholder {
   list-style: 0;
 }
 .advantages__title {
+  margin: 0;
+  padding: 0;
   text-transform: uppercase;
 }
 .advantages__text {
+  margin: 0;
+  padding: 0;
   text-align: justify;
 }
 .offer {
@@ -103,11 +107,15 @@ input[type="search"]::placeholder {
   background-color: #e7526b;
 }
 .offer__title {
+  margin: 0;
+  padding: 0;
   font-size: 35px;
   line-height: 60px;
   font-weight: 400;
 }
 .offer__text {
+  margin: 0;
+  padding: 0;
   font-size: 15px;
   line-height: 26px;
 }
@@ -115,11 +123,15 @@ input[type="search"]::placeholder {
   color: #3a4d60;
 }
 .desc__title {
+  margin: 0;
+  padding: 0;
   font-size: 15px;
   line-height: 26px;
   text-transform: uppercase;
 }
 .desc__text {
+  margin: 0;
+  padding: 0;
   font-size: 15px;
   line-height: 26px;
 }
@@ -139,12 +151,16 @@ input[type="search"]::placeholder {
   background-color: #404040;
 }
 .experience__title {
+  margin: 0;
+  padding: 0;
   font-size: 40px;
   font-weight: 400;
   line-height: 48px;
   color: #ffffff;
 }
 .experience__text {
+  margin: 0;
+  padding: 0;
   font-size: 20px;
   line-height: 33px;
   color: #a87bb7;
@@ -169,6 +185,8 @@ input[type="search"]::placeholder {
   border: 2px solid #ffffff;
 }
 .portfolio__title {
+  margin: 0;
+  padding: 0;
   font-size: 40px;
   line-height: 50px;
 }
@@ -184,8 +202,14 @@ input[type="search"]::placeholder {
   background-color: #e7526b;
 }
 .mail__title {
+  margin: 0;
+  padding: 0;
   font-weight: 700;
   text-transform: uppercase;
+}
+.mail__text {
+  margin: 0;
+  padding: 0;
 }
 .mail__link {
   color: #ffffff;
@@ -195,6 +219,8 @@ input[type="search"]::placeholder {
   background-color: #2e3b4e;
 }
 .page-footer__text {
+  margin: 0;
+  padding: 0;
   font-size: 12px;
   line-height: 36px;
 }
