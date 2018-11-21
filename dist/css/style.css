@@ -43,7 +43,12 @@ input[type="checkbox"].visually-hidden {
 .page-header {
   background-color: #3a545f;
 }
+.page-header__wrapper {
+  width: 1180px;
+  margin: 0 auto;
+}
 .logo {
+  width: 180px;
   text-decoration: none;
 }
 .logo__text {
@@ -52,9 +57,10 @@ input[type="checkbox"].visually-hidden {
   color: #ffffff;
 }
 .site-list {
+  width: 460px;
   margin: 0;
   padding: 0;
-  list-style: 0;
+  list-style: none;
 }
 .site-list__link {
   font-size: 13px;
@@ -93,10 +99,17 @@ input[type="search"]::placeholder {
   color: #ffffff;
   background-color: #2e3b4e;
 }
+.advantages__wrapper {
+  width: 820px;
+  margin: 0 auto;
+}
 .advantages__list {
   margin: 0;
   padding: 0;
-  list-style: 0;
+  list-style: none;
+}
+.advantages__item {
+  width: 400px;
 }
 .advantages__title {
   margin: 0;
@@ -111,6 +124,11 @@ input[type="search"]::placeholder {
 .offer {
   color: #ffffff;
   background-color: #e7526b;
+}
+.offer__wrapper {
+  width: 620px;
+  margin: 0 auto;
+  text-align: center;
 }
 .offer__title {
   margin: 0;
@@ -127,6 +145,9 @@ input[type="search"]::placeholder {
 }
 .desc {
   color: #3a4d60;
+}
+.desc__wrapp {
+  width: 660px;
 }
 .desc__title {
   margin: 0;
@@ -146,7 +167,7 @@ input[type="search"]::placeholder {
   line-height: 31px;
 }
 .desc__content {
-  width: 630px;
+  width: 530px;
   height: 500px;
   background-color: #ebebeb;
 }
@@ -155,6 +176,11 @@ input[type="search"]::placeholder {
 }
 .experience {
   background-color: #404040;
+}
+.experience__wrapper {
+  width: 820px;
+  margin: 0 auto;
+  text-align: center;
 }
 .experience__title {
   margin: 0;
@@ -167,6 +193,7 @@ input[type="search"]::placeholder {
 .experience__text {
   margin: 0;
   padding: 0;
+  padding: 0 10px;
   font-size: 20px;
   line-height: 33px;
   color: #a87bb7;
@@ -174,6 +201,9 @@ input[type="search"]::placeholder {
 .portfolio {
   color: #ffffff;
   background-color: #232323;
+}
+.portfolio__wrapper {
+  width: 460px;
 }
 .portfolio__button {
   padding: 10px 30px;
@@ -187,7 +217,7 @@ input[type="search"]::placeholder {
 .portfolio__title {
   margin: 0;
   padding: 0;
-  font-size: 40px;
+  font-size: 35px;
   line-height: 50px;
 }
 .portfolio__author-name {
@@ -200,6 +230,9 @@ input[type="search"]::placeholder {
   line-height: 26px;
   color: #ffffff;
   background-color: #e7526b;
+}
+.mail__wrapper {
+  width: 460px;
 }
 .mail__title {
   margin: 0;
@@ -224,10 +257,13 @@ input[type="search"]::placeholder {
   font-size: 12px;
   line-height: 36px;
 }
+.promo {
+  width: 460px;
+}
 .promo__title {
   margin: 0;
   padding: 0;
-  font-size: 50px;
+  font-size: 45px;
   line-height: 70px;
   color: #ffffff;
 }
