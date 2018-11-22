@@ -1,13 +1,22 @@
 .desc {
+	display: flex;
+	justify-content: space-between;
 	color: @dark-text;
 }
 
 .desc__wrapp {
 	width: 660px;
+	padding-right: 20px;
+	padding-top: 90px;
+	&--bright {
+		padding-left: 30px;
+		padding-right: 0;
+	}
 }
 
 .desc__title {
 	.set();
+	margin-bottom: 10px;
 	font-size: @fz-text;
 	line-height: @lh-text;
 	text-transform: uppercase;
@@ -18,17 +27,20 @@
 	font-size: @fz-text;
 	line-height: @lh-text;
 	&--main {
+		margin-bottom: 30px;
 		font-size: 19px;
 		line-height: 31px;
 	}
 }
 
 .desc__content {
+	order: -1;
 	width: 530px;
 	height: 500px;
 
 	background-color: @content;
 	&--bright {
+		order: 1;
 		background-color: @content-bright;
 	}
 }
