@@ -14,4 +14,17 @@
 	line-height: 24px;
 	color: @light-text;
 	text-decoration: none;
+	&--current {
+		position: relative;
+		&::after {
+			content: "";
+            position: absolute;
+            right: -20px;
+            bottom: -32px;
+            left: -20px;
+            width: 34px;
+            height: 5px;
+            background-color: #ffffff;
+		}
+	}
 }

@@ -82,11 +82,26 @@ input[type="checkbox"].visually-hidden {
   color: #ffffff;
   text-decoration: none;
 }
+.site-list__link--current {
+  position: relative;
+}
+.site-list__link--current::after {
+  content: "";
+  position: absolute;
+  right: -20px;
+  bottom: -32px;
+  left: -20px;
+  width: 34px;
+  height: 5px;
+  background-color: #ffffff;
+}
 .main-nav__wrapper {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  margin-bottom: 270px;
+  margin-bottom: 250px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #466572;
 }
 .main-nav__list {
   margin-left: 340px;
@@ -112,7 +127,7 @@ input[type="search"]::placeholder {
 }
 .search__field {
   width: 215px;
-  padding: 14px 25px;
+  padding: 10px 25px;
   border: none;
   border-radius: 25px;
 }
