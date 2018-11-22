@@ -19,6 +19,15 @@
 	background-color: @dark;
 	border-radius: 30px;
 	border: 2px solid #ffffff;
+	cursor: pointer;
+	&:hover,
+	&:focus {
+		background-color: lighten(@dark, 10%);
+	}
+	&:active {
+		background-color: darken(@dark, 10%);
+		outline: none;
+	}
 }
 
 .portfolio__title {

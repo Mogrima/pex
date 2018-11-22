@@ -8,11 +8,28 @@
 	background-color: @dark-btn;
 	border: none;
 	border-radius: 30px;
+	cursor: pointer;
+	&:hover,
+	&:focus {
+		background-color: lighten(@dark-btn, 10%);
+	}
+	&:active {
+		background-color: darken(@dark-btn, 10%);
+		outline: none;
+	}
 	&--light {
 		padding-left: 105px;
 		padding-right: 105px;
 		background-color: @light-btn;
 		color: #d54c63;
+		&:hover,
+		&:focus {
+			background-color: darken(@light-btn, 10%);
+		}
+		&:active {
+			background-color: darken(@light-btn, 20%);
+			outline: none;
+		}
 	}
 }
 

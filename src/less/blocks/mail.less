@@ -30,4 +30,11 @@
 
 .mail__link {
 	color: @light-text;
+	&:hover,
+	&:focus {
+		text-decoration: none;
+	}
+	&:active {
+		color: fade(@light-text, 80%);
+	}
 }
