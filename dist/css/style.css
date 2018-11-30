@@ -61,6 +61,7 @@ input[type="checkbox"].visually-hidden {
 }
 .page-header {
   background-color: #3a545f;
+  background-image: url("../../img/header-bg.jpg");
 }
 .page-header__wrapper {
   width: 1180px;
@@ -120,7 +121,7 @@ input[type="checkbox"].visually-hidden {
   align-items: center;
   margin-bottom: 250px;
   padding-bottom: 20px;
-  border-bottom: 1px solid #466572;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 .main-nav__list {
   margin-left: 340px;
@@ -203,6 +204,7 @@ input[type="search"]::placeholder {
 .offer {
   color: #ffffff;
   background-color: #e7526b;
+  background-image: url("../../img/offer-bg.jpg");
 }
 .offer__wrapper {
   width: 620px;
@@ -266,17 +268,21 @@ input[type="search"]::placeholder {
   width: 530px;
   height: 500px;
   background-color: #ebebeb;
+  background-image: url("../../img/content-1.jpg");
+  background-size: cover;
 }
 .desc__content--bright {
   order: 1;
   background-color: #614398;
+  background-image: url("../../img/content-2.jpg");
 }
 .experience {
   padding-top: 95px;
   background-color: #404040;
+  background-image: url("../../img/experience-bg.jpg");
 }
 .experience__fon {
-  background-color: #4e225e;
+  background-color: rgba(78, 34, 94, 0.7);
 }
 .experience__wrapper {
   width: 820px;
@@ -309,6 +315,8 @@ input[type="search"]::placeholder {
 .portfolio {
   color: #ffffff;
   background-color: #232323;
+  background-image: url("../../img/portfolio-bg.jpg");
+  background-size: cover;
 }
 .portfolio__wrapper {
   width: 1180px;
