@@ -4,6 +4,7 @@ var plumber = require("gulp-plumber");
 var postcss = require("gulp-postcss");
 var autoprefixer = require("autoprefixer");
 var rigger = require("gulp-rigger");
+var minCss = require("gulp-clean-css");
 var imagemin = require("gulp-imagemin");
 var server = require("browser-sync").create();
 gulp.task("html:build", function () {
@@ -19,6 +20,7 @@ gulp.task("html:build", function () {
     .pipe(postcss([
       autoprefixer()
     ]))
+    .pipe(minCss())
     .pipe(gulp.dest("dist/css"))
     .pipe(server.stream());
 });
